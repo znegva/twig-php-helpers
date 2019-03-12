@@ -4,6 +4,10 @@ This project is work-in-progress!
 
 ## local testing
 
+create a dir `extensions/local/{author_name}/{extension_name}` (softlinks are working)
+
+### test installing from local repo
+
 extend your `$BoltDir/extensions/composer.json` with:
 ```json
 "repositories": {
