@@ -1,0 +1,29 @@
+{
+  "name": "znegva/twig-php-helpers",
+  "description": "Use PHP functions in twig templates",
+  "type": "bolt-extension",
+  "keywords": [
+    "php",
+    "twig",
+    "extension"
+  ],
+  "require": {
+    "bolt/bolt": "^3.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Martin Kasuche",
+      "email": "znegva@users.noreply.github.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bolt\\Extension\\Znegva\\TwigPhpHelpers\\": "src"
+    }
+  },
+  "extra": {
+    "bolt-icon": "",
+    "bolt-class": "Bolt\\Extension\\Znegva\\TwigPhpHelpers\\TwigPhpHelpersExtension"
+  }
+}
