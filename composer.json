@@ -2,6 +2,8 @@
   "name": "znegva/twig-php-helpers",
   "description": "Use PHP functions in twig templates",
   "type": "bolt-extension",
+  "version": "0.0.1",
+  "minimum-stability" : "dev",
   "keywords": [
     "php",
     "twig",
@@ -13,7 +15,7 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Martin Kasuche",
+      "name": "Martin Kausche",
       "email": "znegva@users.noreply.github.com"
     }
   ],

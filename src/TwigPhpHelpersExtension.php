@@ -1,3 +1,5 @@
+<?php
+
 namespace Bolt\Extension\Znegva\TwigPhpHelpers;
 
 use Bolt\Extension\SimpleExtension;
@@ -9,5 +11,8 @@ use Bolt\Extension\SimpleExtension;
  */
 class TwigPhpHelpersExtension extends SimpleExtension
 {
-    // Extension code goes here.
+  public function getName()
+    {
+        return "TwigPHPHelpers";
+    }
 }
